@@ -1,0 +1,10 @@
+{
+  "name": "plsmi",
+  "version": "0.1.0",
+  "description": "Stop waiting for IMSLP!",
+  "manifest_version": 2,
+  "content_scripts": [{
+    "matches": ["https://imslp.org/wiki/Special:ImagefromIndex/*/hfpn"],
+    "js": ["plsmi.js"]
+  }]
+}
